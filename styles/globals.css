@@ -2,13 +2,19 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'SF Pro KR','SF Pro Display','SF Pro Icons',BlinkMacSystemFont,
+  -apple-system,'Basier Square','Apple SD Gothic Neo',Roboto,'Noto Sans KR',
+  'Noto Sans','Helvetica Neue',Helvetica,Arial,sans-serif!important;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+p {
+  word-break: keep-all;
+  word-wrap: break-word;
 }
 
 * {
