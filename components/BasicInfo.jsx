@@ -26,7 +26,7 @@ export default function BasicInfo() {
             </div>
             <div className={styles.row}>
               <p className={styles.left_box}>Portfoilo</p>
-              <p className={styles.right_box}>https://clianor.github.io/portfolio/</p>
+              <p className={styles.right_box}>https://skill-profile.vercel.app/</p>
             </div>
             <div className={styles.row}>
               <p className={styles.left_box}>Blog</p>
