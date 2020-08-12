@@ -8,44 +8,6 @@ export default function Career() {
       <div className={[styles.card_contents, styles.interval].join(' ')}>
         <div className={styles.row}>
           <div className={styles.left_box}>
-            <p>아이티공간</p>
-          </div>
-          <div className={styles.right_box}>
-            <div className={styles.row}>
-              <p className={styles.career_term}>2018.08 ~ 2019.10</p>
-            </div>
-            <div className={[styles.row, styles.flex_column, styles.career_detail].join(' ')}>
-              <div className={styles.career_title}>
-                <h4>EOCR기반 수집, 제어, 분석 프로그램 개발</h4>
-                <p>Golang, Python - Django, DB - Machbase, TimescaleDB</p>
-              </div>
-              <div className={styles.career_contents}>
-                <ul>
-                  <li><p>기존에 Mssql로 되어 있으며 타사 제품을 사용하던 수집 프로그램을 자체 제작</p></li>
-                  <li><p>정해진 갯수 이상의 장비의 데이터를 수집할 수 없던 기존의 테이블 구조를 개편하여 개발</p></li>
-                  <li><p>Golang과 시계열 데이터베이스를 활용하여 실시간 데이터 수집 프로세스 구축 및 개발</p></li>
-                  <li><p>게이트웨이와 EOCR의 상태 및 데이터 분석, EOCR 제어용 관리자 페이지 구축</p></li>
-                </ul>
-              </div>
-            </div>
-            <div className={[styles.row, styles.flex_column, styles.career_detail].join(' ')}>
-              <div className={styles.career_title}>
-                <h4>장비 분석 및 시각화 웹 기반 대시보드 개발</h4>
-                <p>JS - React, Python - Django, DB - TimescaleDB, Tools - Git</p>
-              </div>
-              <div className={styles.career_contents}>
-                <ul>
-                  <li>ApexCharts를 활용한 시계열 데이터 시각화</li>
-                  <li>Django의 권한 관리 및 signals 이용</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={[styles.card_contents, styles.interval].join(' ')}>
-        <div className={styles.row}>
-          <div className={styles.left_box}>
             <p>Ghtech & SWCORE</p>
             <p>(소속변경)</p>
           </div>
@@ -78,6 +40,46 @@ export default function Career() {
                     </p>
                   </li>
                   <li><p>일계표 및 원장 시스템 개발, 예산 시스템 개발</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={[styles.card_contents, styles.interval].join(' ')}>
+        <div className={styles.row}>
+          <div className={styles.left_box}>
+            <p>아이티공간</p>
+          </div>
+          <div className={styles.right_box}>
+            <div className={styles.row}>
+              <p className={styles.career_term}>2018.08 ~ 2019.10</p>
+            </div>
+            <div className={[styles.row, styles.flex_column, styles.career_detail].join(' ')}>
+              <div className={styles.career_title}>
+                <h4>EOCR기반 수집, 제어, 분석 프로그램 개발</h4>
+                <p>Golang, Python - Django, DB - Machbase, TimescaleDB</p>
+              </div>
+              <div className={styles.career_contents}>
+                <ul>
+                  <li><p>데이터 분석을 위한 모터 데이터 수집 프로그램 제작</p></li>
+                  <li><p>정해진 갯수 이상의 장비의 데이터를 수집할 수 없던 기존의 테이블 구조를 개편하여 개발</p></li>
+                  <li><p>Golang과 시계열 데이터베이스를 활용하여 실시간 데이터 수집 프로세스 구축 및 개발</p></li>
+                  <li><p>게이트웨이와 EOCR의 상태 및 데이터 분석, EOCR 제어용 관리자 페이지 구축</p></li>
+                  <li><p>Python의 ApScheduler를 이용하여 데이터 수집 스케쥴러 개발</p></li>
+                  <li><p>ApScheduler의 구동방식을 파악하여 Golang으로 구현</p></li>
+                </ul>
+              </div>
+            </div>
+            <div className={[styles.row, styles.flex_column, styles.career_detail].join(' ')}>
+              <div className={styles.career_title}>
+                <h4>장비 분석 및 시각화 웹 기반 대시보드 개발</h4>
+                <p>JS - React, Python - Django, DB - TimescaleDB, Tools - Git</p>
+              </div>
+              <div className={styles.career_contents}>
+                <ul>
+                  <li>ApexCharts를 활용한 시계열 데이터 시각화</li>
+                  <li>Django의 권한 관리 및 signals 이용</li>
                 </ul>
               </div>
             </div>
