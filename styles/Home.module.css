@@ -30,6 +30,7 @@
 
 .page_header .contents {
   font-size: 1rem;
+  line-height: 1.5rem;
   color: #6b7684;
 }
 
@@ -37,12 +38,8 @@
   padding: 0.75rem 0;
 }
 
-.card {
-
-}
-
 .card + .card {
-  padding-top: 1.25rem;
+  padding-top: 2.75rem;
 }
 
 .card .card_title {
@@ -60,6 +57,11 @@
   height: 1.15rem;
   background-color: #3182f6;
   margin-right: 0.35rem;
+}
+
+.card .card_contents {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .row {
@@ -85,8 +87,8 @@
   padding-left: 0.75rem;
 }
 
-.career + .career {
-  padding-top: 5rem;
+.interval + .interval {
+  padding-top: 1.75rem;
 }
 
 .career_term {
@@ -116,11 +118,11 @@
 
 .career_contents ul li + li,
 .tech_contents ul li + li{
-  padding-top: 0.45rem;
+  padding-top: 0.75rem;
 }
 
 .career_detail + .career_detail {
-  margin-top: 1.25rem;
+  padding-top: 1.5rem;
 }
 
 .skills .skills_title > h4 {

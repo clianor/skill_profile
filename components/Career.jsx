@@ -5,7 +5,7 @@ export default function Career() {
     <article className={styles.card}>
       <h2 className={styles.card_title}>Career</h2>
 
-      <div className={styles.card_contents}>
+      <div className={[styles.card_contents, styles.interval].join(' ')}>
         <div className={styles.row}>
           <div className={styles.left_box}>
             <p>아이티공간</p>
@@ -43,7 +43,7 @@ export default function Career() {
           </div>
         </div>
       </div>
-      <div className={styles.card_contents}>
+      <div className={[styles.card_contents, styles.interval].join(' ')}>
         <div className={styles.row}>
           <div className={styles.left_box}>
             <p>Ghtech & SWCORE</p>

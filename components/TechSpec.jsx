@@ -5,7 +5,7 @@ export default function TechSpec() {
     <article className={styles.card}>
       <h2 className={styles.card_title}>Tech Spec</h2>
       <div className={styles.card_contents}>
-        <div className={styles.skills}>
+        <div className={[styles.skills, styles.interval].join(' ')}>
           <div className={styles.skills_title}>
             <h4>Language</h4>
           </div>
@@ -67,7 +67,7 @@ export default function TechSpec() {
             </div>
           </div>
         </div>
-        <div className={styles.skills}>
+        <div className={[styles.skills, styles.interval].join(' ')}>
           <div className={styles.skills_title}>
             <h4>Framework & Library</h4>
           </div>
@@ -112,7 +112,7 @@ export default function TechSpec() {
             </div>
           </div>
         </div>
-        <div className={styles.skills}>
+        <div className={[styles.skills, styles.interval].join(' ')}>
           <div className={styles.skills_title}>
             <h4>Database</h4>
           </div>
