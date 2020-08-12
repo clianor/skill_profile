@@ -79,7 +79,7 @@ export default function Career() {
               <div className={styles.career_contents}>
                 <ul>
                   <li>ApexCharts를 활용한 시계열 데이터 시각화</li>
-                  <li>Django의 권한 관리 및 signals 이용</li>
+                  <li>Django의 권한 관리 및 signal 이용</li>
                 </ul>
               </div>
             </div>
