@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>김덕현기술 소개서입니다</title>
+        <title>김덕현의 기술 소개서입니다</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
