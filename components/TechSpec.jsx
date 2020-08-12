@@ -19,7 +19,7 @@ export default function TechSpec() {
                   <ul>
                     <li>Slack을 이용한 G Suite, Github, Trello, MS Office 등의 프로그램을 제어하고 관리하는
                       ECC(Everything Control by Chatting) 프로젝트 중 Google Calendar를 활용한 일정 관리 시스템 개발</li>
-                    <li>Machine Learning 한국어 감성 분석 연구 어시스트</li>
+                    <li>Machine Learning 기반 한국어 논문 감성 분석 연구 어시스트</li>
                     <li>Django 프레임워크를 이용한 사내 도서관리 시스템 개발</li>
                     <li>Flask 프레임워크를 이용한 전기 데이터 분석 API 개발</li>
                     <li>ModbusTCP 기반 수집 전송 프로그램 제작 및 관리자 페이지 개발</li>
