@@ -58,7 +58,7 @@ export default function Career() {
             <div className={[styles.row, styles.flex_column, styles.career_detail].join(' ')}>
               <div className={styles.career_title}>
                 <h4>EOCR기반 수집, 제어, 분석 프로그램 개발</h4>
-                <p>Golang, Python - Django, DB - Machbase, TimescaleDB</p>
+                <p>Golang, Python - Django, DB - Machbase, TimescaleDB, Tools - Git</p>
               </div>
               <div className={styles.career_contents}>
                 <ul>
