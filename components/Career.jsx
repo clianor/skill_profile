@@ -18,7 +18,7 @@ export default function Career() {
             <div className={[styles.row, styles.flex_column].join(' ')}>
               <div className={styles.career_title}>
                 <h4>아주대 요양병원 인사, 급여, 회계 시스템 개발 및 유지보수</h4>
-                <p>C# - DevExpress, DB - oracle, Tools - Git</p>
+                <p>C# - DevExpress, DB - oracle, Tools - VSS</p>
               </div>
               <div className={styles.career_contents}>
                 <ul>
