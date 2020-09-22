@@ -13,7 +13,7 @@ export default function Career() {
           </div>
           <div className={styles.right_box}>
             <div className={[styles.row, styles.flex_column].join(' ')}>
-              <p className={styles.career_term}>2019.12 ~ 재직중</p>
+              <p className={styles.career_term}>2019.12 ~ 2020.08</p>
             </div>
             <div className={[styles.row, styles.flex_column].join(' ')}>
               <div className={styles.career_title}>
